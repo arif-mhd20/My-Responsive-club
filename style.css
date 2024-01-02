@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+.nav-bar{
+
+    background-color: green;
+  
+    padding-bottom: 15px;
+   
+}
+
+.nav-bar ul{
+    display: flex;
+    padding: 1rem 0;
+    list-style: none;
+    
+    
+   
+}
+
+.nav-bar li a{
+   padding: 0 30px;
+   text-decoration: none;
+   color: pink;
+   font-size: 1.3em;
+   font-weight: bolder;
+
+  
+}
+
+.nav-bar li a:hover{
+    background-color: white;
+    color:blueviolet;
+    border-radius: 1em;
+    transition: 0.5s;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 200px;
+    background-color: rgb(8, 88, 99);
+    color: pink;
+    padding: 20px 0;
+}
+
+.sub{
+    margin-top: 120px;
+    color: orangered;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.part-1{
+    font-size: larger;
+    color: azure;
+    font-weight: bold;
+}
+
+.part-2{
+font-size: large;
+}
+
+.all-image{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+   
+    
+}
+
+
+
+.image{
+    
+    align-items: center;
+    margin: 80px;
+    height: 300px;
+    width: 300px;
+    border: 3px solid ;
+    
+   
+}
+
+@media only screen and (max-width:600px){
+    .image{
+        margin: 20px;
+        flex-direction:row;
+        height:auto;
+        display: grid;
+        grid-template-rows: 80px;
+    }
+
+
+    /* .image {
+        margin: 10px; 
+        width: 100%; 
+} */
+}
+
+
+
+.content2{
+    margin-top: 300px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 35px;
+    background-color: rgb(8, 88, 99);
+    color: pink;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+
+
+.content3{
+   
+    text-align: center;
+    background-position: center;
+    color:pink;
+    margin-top: 300px;
+    background-color: rgb(8, 88, 99);
+        font-size: 40px;
+    font-style:italic;
+    border-radius: 50%;
+    padding: 30px;
+    animation: color-change 1s infinite;
+    border: 10px dotted;
+    
+}
+
+@keyframes color-change {
+    0% { color: green; }
+    50% { color:  rgb(8, 88, 99); }
+    100% { color: pink; }
+  }
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+   
+}
+
+.image1{
+    height: 500px;
+    width: 400px;
+    border: 2px solid brown;
+   
+
+
+}
+
+.content4 h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
